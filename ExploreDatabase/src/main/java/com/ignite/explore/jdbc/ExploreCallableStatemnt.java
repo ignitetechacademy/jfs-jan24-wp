@@ -14,9 +14,9 @@ public class ExploreCallableStatemnt {
 			Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/students_data", "postgres",
 					"24D@ta30");
 			
-			CallableStatement cStmt = con.prepareCall("{ ? = call getstudentname(?) }");
+			CallableStatement cStmt = con.prepareCall("{ ? = call get_name(?) }");
 			cStmt.registerOutParameter(1, Types.VARCHAR);
-			cStmt.setInt(2, 444);
+			cStmt.setInt(2, 555);
 			cStmt.execute();
 			
 			System.out.println(cStmt.getString(1));

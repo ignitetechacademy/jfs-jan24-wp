@@ -10,3 +10,19 @@ ExploreDatabase/.settings/org.eclipse.jdt.core.prefs
 ExploreDatabase/target
 *.class
 *.jar
+ExploreServlets/.classpath
+ExploreServlets/.project
+ExploreServlets/.settings/.jsdtscope
+ExploreServlets/.settings/org.eclipse.jdt.core.prefs
+ExploreServlets/.settings/org.eclipse.wst.common.component
+ExploreServlets/.settings/org.eclipse.wst.common.project.facet.core.xml
+ExploreServlets/.settings/org.eclipse.wst.jsdt.ui.superType.container
+ExploreServlets/.settings/org.eclipse.wst.jsdt.ui.superType.name
+Servers/.project
+Servers/.settings/org.eclipse.wst.server.core.prefs
+Servers/apache-tomcat-9.0.55 at localhost-config/catalina.policy
+Servers/apache-tomcat-9.0.55 at localhost-config/catalina.properties
+Servers/apache-tomcat-9.0.55 at localhost-config/context.xml
+Servers/apache-tomcat-9.0.55 at localhost-config/server.xml
+Servers/apache-tomcat-9.0.55 at localhost-config/tomcat-users.xml
+Servers/apache-tomcat-9.0.55 at localhost-config/web.xml
