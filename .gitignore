@@ -26,3 +26,11 @@ Servers/apache-tomcat-9.0.55 at localhost-config/context.xml
 Servers/apache-tomcat-9.0.55 at localhost-config/server.xml
 Servers/apache-tomcat-9.0.55 at localhost-config/tomcat-users.xml
 Servers/apache-tomcat-9.0.55 at localhost-config/web.xml
+StudentsWebApplication/.classpath
+StudentsWebApplication/.project
+StudentsWebApplication/.settings/.jsdtscope
+StudentsWebApplication/.settings/org.eclipse.jdt.core.prefs
+StudentsWebApplication/.settings/org.eclipse.wst.common.component
+StudentsWebApplication/.settings/org.eclipse.wst.common.project.facet.core.xml
+StudentsWebApplication/.settings/org.eclipse.wst.jsdt.ui.superType.container
+StudentsWebApplication/.settings/org.eclipse.wst.jsdt.ui.superType.name

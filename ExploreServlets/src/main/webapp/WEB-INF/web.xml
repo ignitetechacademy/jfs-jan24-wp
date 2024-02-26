@@ -39,4 +39,34 @@
     <servlet-name>StudentsSevlet</servlet-name>
     <url-pattern>/students</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateCompanyServlet</display-name>
+    <servlet-name>CreateCompanyServlet</servlet-name>
+    <servlet-class>com.ignite.explore.servlets.companies.CreateCompanyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCompanyServlet</servlet-name>
+    <url-pattern>/company/create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowCompaniesServlet</display-name>
+    <servlet-name>ShowCompaniesServlet</servlet-name>
+    <servlet-class>com.ignite.explore.servlets.companies.ShowCompaniesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowCompaniesServlet</servlet-name>
+    <url-pattern>/company/view</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateCompanyServlet</display-name>
+    <servlet-name>UpdateCompanyServlet</servlet-name>
+    <servlet-class>com.ignite.explore.servlets.companies.UpdateCompanyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCompanyServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
 </web-app>
