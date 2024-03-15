@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!-- <bean class="com.ignite.explore.spring.context.di.EmployeeController">
+    	<constructor-arg ref="another"></constructor-arg>
+    </bean> -->
+    
+    <bean class="com.ignite.explore.spring.context.di.EmployeeController">
+    	<property name="service" ref="std"></property>
+    </bean>
+    
+    <bean id="std" class="com.ignite.explore.spring.context.di.StandardEmployeeService"></bean>
+    <bean id="spl" class="com.ignite.explore.spring.context.di.SpecialEmployeeService"></bean>
+	<bean id="another" class="com.ignite.explore.spring.context.di.AnotherEmplyeeService"></bean>
+
+</beans>

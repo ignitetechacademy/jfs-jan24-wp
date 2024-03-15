@@ -43,3 +43,56 @@ LayeredApplication/target/classes/app-objects.xml
 LayeredApplication/target/classes/META-INF/MANIFEST.MF
 LayeredApplication/target/classes/META-INF/maven/com.ingine.explore/LayeredApplication/pom.properties
 LayeredApplication/target/classes/META-INF/maven/com.ingine.explore/LayeredApplication/pom.xml
+StudentsSpringHibApplication/target/classes/std-hibernate-config.xml
+StudentsSpringHibApplication/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+StudentsSpringHibApplication/target/m2e-wtp/web-resources/META-INF/maven/com.ignite.springhibernate/StudentsSpringHibApplication/pom.properties
+StudentsSpringHibApplication/target/m2e-wtp/web-resources/META-INF/maven/com.ignite.springhibernate/StudentsSpringHibApplication/pom.xml
+StudentsSpringHibApplication/.settings/org.eclipse.wst.validation.prefs
+StudentsSpringHibApplication/.settings/org.eclipse.wst.jsdt.ui.superType.name
+StudentsSpringHibApplication/.settings/org.eclipse.wst.jsdt.ui.superType.container
+StudentsSpringHibApplication/.settings/org.eclipse.wst.common.project.facet.core.xml
+StudentsSpringHibApplication/.settings/org.eclipse.wst.common.component
+StudentsSpringHibApplication/.settings/org.eclipse.m2e.core.prefs
+StudentsSpringHibApplication/.settings/org.eclipse.jdt.core.prefs
+StudentsSpringHibApplication/.settings/org.eclipse.jdt.apt.core.prefs
+StudentsSpringHibApplication/.settings/.jsdtscope
+SpringMVC/target/m2e-wtp/web-resources/META-INF/maven/com.ignite.explore.spring/SpringMVC/pom.xml
+SpringMVC/target/m2e-wtp/web-resources/META-INF/maven/com.ignite.explore.spring/SpringMVC/pom.properties
+SpringMVC/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+ExploreHibernate/target/classes/bank.hbm.xml
+ExploreHibernate/target/classes/hibernate.cfg.xml
+ExploreHibernate/target/classes/META-INF/MANIFEST.MF
+ExploreHibernate/target/classes/META-INF/maven/com.ignite.explore/ExploreHibernate/pom.properties
+ExploreHibernate/target/classes/META-INF/maven/com.ignite.explore/ExploreHibernate/pom.xml
+ExploreHibernateAnnotations/.settings/org.eclipse.jdt.apt.core.prefs
+ExploreHibernateAnnotations/.settings/org.eclipse.jdt.core.prefs
+ExploreHibernateAnnotations/.settings/org.eclipse.m2e.core.prefs
+ExploreHibernateAnnotations/target/classes/hibernate.properties
+ExploreHibernateAnnotations/target/classes/META-INF/MANIFEST.MF
+ExploreHibernateAnnotations/target/classes/META-INF/maven/com.ignite.explore/ExploreHibernateAnnotations/pom.properties
+ExploreHibernateAnnotations/target/classes/META-INF/maven/com.ignite.explore/ExploreHibernateAnnotations/pom.xml
+Servers/.settings/org.eclipse.core.resources.prefs
+Servers/apache-tomcat-10.1.15 at localhost-config/catalina.policy
+Servers/apache-tomcat-10.1.15 at localhost-config/catalina.properties
+Servers/apache-tomcat-10.1.15 at localhost-config/context.xml
+Servers/apache-tomcat-10.1.15 at localhost-config/server.xml
+Servers/apache-tomcat-10.1.15 at localhost-config/tomcat-users.xml
+Servers/apache-tomcat-10.1.15 at localhost-config/web.xml
+SpringMVC/.settings/.jsdtscope
+SpringMVC/.settings/org.eclipse.core.resources.prefs
+SpringMVC/.settings/org.eclipse.jdt.apt.core.prefs
+SpringMVC/.settings/org.eclipse.jdt.core.prefs
+SpringMVC/.settings/org.eclipse.m2e.core.prefs
+SpringMVC/.settings/org.eclipse.wst.common.component
+SpringMVC/.settings/org.eclipse.wst.common.project.facet.core.xml
+SpringMVC/.settings/org.eclipse.wst.jsdt.ui.superType.container
+SpringMVC/.settings/org.eclipse.wst.jsdt.ui.superType.name
+SpringMVC/.settings/org.eclipse.wst.validation.prefs
+SpringContext/target/classes/ignite-config.xml
+SpringContext/target/classes/college-config.xml
+SpringContext/target/classes/college-app-config.xml
+SpringContext/target/classes/college-app-config.xml
+SpringContext/target/classes/college-app-config.xml
+SpringContext/.settings/org.eclipse.m2e.core.prefs
+SpringContext/.settings/org.eclipse.jdt.core.prefs
+SpringContext/.settings/org.eclipse.jdt.apt.core.prefs
