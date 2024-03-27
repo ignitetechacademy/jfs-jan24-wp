@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syam's Resume</title>
+
+    <link href="syam.css" rel="stylesheet">
+
+    <style>
+        #educ{
+            color: green;
+        }
+
+        #nk{
+            color: blueviolet;
+        }
+    </style>
+
+    <script>
+        function showProjects(){
+           // alert("Display Projects");
+
+            var x = document.getElementById("ctrack");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body >
+    <h1>Syam Kakumani</h1>
+    <h3>syam.kakumani@gmail.com</h3>
+    <h3>+91 97430 36630</h3>
+    <hr>
+    <h2>Objective</h2>
+    <p>I would like to associate with an organization, which will utilize my skills for the growth of the organization and also, help me in learning and contributing to the adavancement of self and the organization.</p>
+    <hr>
+    <h2 id="educ">Education</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <td>Education</td>
+                <td>Completion Year</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MCA</td>
+                <td>2004</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Experience</h2>
+    <table border="4">
+        <thead>
+            <tr>
+                <td>Company</td>
+                <td>Position</td>
+                <td>Duration</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Peppy Infotech</td>
+                <td>Architect</td>
+                <td>7 Years</td>
+            </tr>
+            <tr>
+                <td id="nk">Neokred Technologies</td>
+                <td id="nk">Head of Engg</td>
+                <td>2 Years</td>
+            </tr>
+            <tr>
+                <td style="color: goldenrod;">TechNova Solutions</td>
+                <td id="nk">Solutions Architect</td>
+                <td >3 Years</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2 onclick="showProjects()">Projects</h2>
+    <table border="9" id="ctrack">
+        <tr>
+            <td><b>Project Name-</b> Competence track</td>
+        </tr>
+        <tr>
+            <td><b>Client Name-</b> Peppy Infotech</td>
+        </tr>
+        <tr>
+            <td><b>Description</b>
+                <p>This a unique product to assess the technical resources</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <table border="9">
+        <tr>
+            <td><b>Project Name-</b> Prepaid Instrument</td>
+        </tr>
+        <tr>
+            <td><b>Client Name-</b> NeoKred</td>
+        </tr>
+        <tr>
+            <td><b>Description</b>
+                <p>B2B Prpapid cards issued by Yes Bank, with the collaboration of Neokred</p>
+            </td>
+        </tr>
+    </table> -->
+</body>
+</html>
