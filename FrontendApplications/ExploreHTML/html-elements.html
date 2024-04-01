@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore HTML Elements</title>
+
+    <link href="html-elements.css" rel="stylesheet">
+    <script src="html-elements.js"></script>
+
+    <style>
+        h1, h2, h3, h6{
+           color: green; 
+        }
+    </style>
+</head>
+<body>
+    <a href="movies.html">Show the Movies</a>
+
+
+    <!-- header -->
+    <h1>First Heading</h1>
+    <h2>Second Heading</h2>
+    <h3 style="color: blue;">Third Heading</h3>
+    <h6>Third Heading</h6>
+    
+    <h4>Information</h4>
+    <p>Information is explaining about a situation or a concept.</p>
+    <p>When you provide information, you provide facts about a situation or existance.</p>
+
+    <!-- list -->
+    <h2 onmouseup="showInstituteName()">FullStack Course Coverage</h2>
+    <ol>
+        <li>Front End</li>
+        <li>Back End</li>
+        <li>Database</li>
+    </ol>
+
+    <h2 onclick="showHideFullStackConcepts()">FullStack Concepts</h2>
+    <ul id="fsconcepts">
+        <li>Postgres</li>
+        <li>Core Java</li>
+        <li>HTML</li>
+        <li>Postman API</li>
+    </ul>
+</body>
+</html>
